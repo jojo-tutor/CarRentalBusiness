@@ -23,12 +23,11 @@ public class Circle {
         this.radius = r;
     }
 
-    public Circle(int numOfSides) {
-        this.numOfSides = numOfSides;
-    }  
+    public double getRadius() {
+        return radius;
+    }
 
-    public Circle(int numOfSides, double radius) {
-        this.numOfSides = numOfSides;
+    public void setRadius(double radius) {
         this.radius = radius;
     }
     
