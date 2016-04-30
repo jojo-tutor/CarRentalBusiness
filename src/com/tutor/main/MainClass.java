@@ -53,5 +53,12 @@ public class MainClass {
 
         Rectangle r = new Rectangle(length,width);
         System.out.println(r);
+        
+        System.out.println("sdfsdf");
+        System.out.println("sdfsdf");
+        System.out.println("sdfsdf");
+        System.out.println("sdfsdf");
+        System.out.println("sdfsdf");
+        System.out.println("sdfsdf");
     }
 }
