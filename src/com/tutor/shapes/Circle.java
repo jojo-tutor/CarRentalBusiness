@@ -22,14 +22,35 @@ public class Circle {
         this.numOfSides = 0;
         this.radius = r;
     }
-
+    
+    /**
+     * Get Radius
+     * @return This method gets the radius of the circle.
+     */
     public double getRadius() {
         return radius;
     }
-
+    
+    /**
+     * Set Radius
+     * @param This method sets the radius of a circle.
+     */
     public void setRadius(double radius) {
         this.radius = radius;
     }
     
+    /**
+     * Area
+     * @return This method calculates the area.
+     */
+    public double calculateArea(){
+        double result = 0.0f;
+        return result = Math.PI * (this.radius * this.radius);
+    }
     
+    @Override
+    public String toString(){
+        return "The Circle has " + this.radius + " radius and " + 
+                this.calculateArea() + " area.";
+    }
 }
