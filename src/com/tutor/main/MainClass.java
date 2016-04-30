@@ -27,6 +27,9 @@ public class MainClass {
             case "R":
                 rectangleShape();
                 break;
+            case "L":
+                System.out.println("Food");
+                break;
             default:
                 System.out.println("Wrong choice!");
                 break;
